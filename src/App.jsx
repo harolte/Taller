@@ -9,11 +9,11 @@ const App = () => (
     <div className="text-center">
     <Header />
       <img
-        src="https://i.ibb.co/CVYFJBM/avatar.webp"
+        src="https://i.ibb.co/BGs3hHY/metaverso.jpg"
         className="rounded-full w-32 mb-4 mx-auto"
-        alt="Avatar"
+       
       />
-      <h5 className="text-xl font-medium leading-tight mb-2">Hola Mundo</h5>
+      <h5 className="text-xl font-medium leading-tight mb-2">Adios Mundo</h5>
       <p className="text-gray-500">Harolt kruchinsky</p>
       <Footer />
     </div>
