@@ -1,18 +1,14 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import { useNavigate } from "react-router-dom";
+import Footer from "./Footer"; 
 
 const Taller = () => {
-  const navigate = useNavigate();
-
   const handleGoHome = () => {
-    window.location.href = 'https://main.d279we5xa4psmh.amplifyapp.com/'; 
+    // Redirige a una URL externa
+    window.location.href = 'https://main.d279we5xa4psmh.amplifyapp.com/';
   };
 
   return (
     <div className="text-center">
-      <Header />
       <img
         src="https://i.ibb.co/BGs3hHY/metaverso.jpg"
         className="rounded-full w-32 mb-4 mx-auto"
